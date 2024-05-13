@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="signUp" class="signUp">
+        <div class="container">
+          <form action="#">
+            <h3>create account</h3>
+            <input type="text" placeholder="full name" id="fname" />
+            <span class="radio">
+              <input type="radio" name="radio" id="radio1" />
+              <label for="radio1">Phone number</label>
+              <input type="radio" name="radio" id="radio2" />
+              <label for="radio2">Email</label>
+            </span>
+            <span class="telInfo">
+              <!-- <input type="number" id="countryCode" /> -->
+              <select name="" id="countryCode">
+                <option value="">+1</option>
+                <option value="">+22</option>
+                <option value="">+44</option>
+                <option value="">+233</option>
+                <option value="">+234</option>
+                <option value="">+235</option>
+                
+              </select>
+              <input type="number" id="telNum" />
+            </span>
+            <p>Enter OTP sent to mobile number</p>
+            <div class="OTP">
+              <input type="number" minlength="5" maxlength="6">
+              </div>
+            <a href="#" class="btn">Sign Up</a>
+            <div class="or">
+              <p>OR</p>
+              <p>Sign up using</p>
+            </div>
+            <div class="icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <p class="lastP">
+              Already have an account? <a href="index.html">Sign in</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    
+</body>
+</html>
